@@ -1,0 +1,319 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Open+Sans+Condensed:300|Playfair+Display|ZCOOL+XiaoWei&display=swap');
+
+body{
+	color: #522c1c;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+}
+
+header{
+	text-align: center;
+	margin: 30px auto 0 auto;
+	padding: 40px auto;
+	overflow: hidden;
+	height: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	opacity: .85;
+	z-index: 3;
+}	
+
+a{
+	text-decoration-line: none;
+	color: #522c1c;
+}
+
+a:hover{
+	opacity: .8;
+	color: #ba4e23;
+}
+
+.content-box{
+	margin-top: 140px;
+
+}
+
+.top{
+	font-family: 'Jomolhari', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 30px;
+}
+.topimg{
+	margin: 20px auto;
+
+}
+
+.topimg img{
+	width: 100%;
+}
+
+ul{
+	margin: 0 auto;
+}
+
+ul li{
+	display: inline;
+	padding: 0 40px;
+	opacity: .8;
+	font-size: 12px;
+}
+
+ul li:hover{
+	opacity: .6;
+	color: #ba4e23;
+	border-bottom: 1.5px solid #ba4e23;
+	padding-bottom: 10px; 
+}
+
+.newarr{
+	background-color: #f2efec;
+	padding: 60px 0% 150px 0%;
+	overflow: hidden;
+	margin: 10px 6%;
+
+}
+
+.head{
+	margin: 10px 6%;
+	border-bottom: 2px solid #522c1c;
+	font-family: 'Jomolhari', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
+	opacity: .8;
+}
+
+.new figure{
+	display: block;
+	height: 235px;
+	float: left;
+	margin: 0 2%;
+	width: 15.3%;
+}
+
+.new img:hover{
+	opacity: .3;
+}
+
+figcaption{
+	text-align: center;
+	opacity: .8;
+	font-family: 'Jomolhari', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+.cost{
+	color: #522c1c;
+	opacity: .8;
+	font-size: 15.5px;
+	font-family: cursive;
+}
+
+figcaption span{
+	color: #ba4e23;
+	opacity: .9;
+	font-size: 10.5px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+.seasonal-box{
+	/*border: 1px solid red;*/
+	width: 70%;
+	height: 560px;
+	position: relative;
+	margin: 30px auto;
+}
+
+.seasonal{
+	display: block;
+	float: left;
+	/*border: 1px solid red;*/
+	width: 60%;
+
+}
+.seasonal-p{
+	display: block;
+	width: 35%;
+	height: 300px;
+	background-color: #f2efec;
+	z-index: 1;
+	position: absolute;
+	right: 13%;
+	top: 100px;
+	text-align: center;
+	padding: 3%;
+	font-size: 13px;
+}
+
+.our-box{
+	/*border: 1px solid red;*/
+	width: 70%;
+	height: 550px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.our-p{
+	display: block;
+	width: 35%;
+	height: 300px;
+	background-color: #f2efec;
+	z-index: 1;
+	position: absolute;
+	right: 56%;
+	top: 100px;
+	text-align: center;
+	padding: 6% 3%;
+	font-size: 13px;
+}
+
+.our{
+	display: block;
+	/*border: 1px solid red;*/
+	width: 70%;
+	float: right;
+}
+
+.readmore{
+	display: block;
+	padding: 4%;
+	text-decoration: none;
+	color: #ba4e23;
+	text-align: right;
+	font-size: 12px;
+	opacity: .8;
+}
+.readmore:hover;{
+	opacity: .3;
+}
+.insta-box{
+	display: block;
+	background-color: #f2efec;
+	padding: 20px 0% 0 2%;
+	overflow: hidden;
+	margin: 0 6%;
+	text-align: center;
+}
+
+
+.insta-head{
+	margin: 10px 6%;
+	font-size: 25px;
+	font-family: 'Jomolhari', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
+	opacity: .8;
+}
+
+.insta-container{
+	display: block;
+	height: 200px;
+	float: left;
+	margin: 0 2%;
+	width: 15.3%;
+	overflow: hidden;
+
+	position: relative;
+}
+.insta-container:hover .imgimg{
+	opacity: 0.3;
+}
+
+.insta-container:hover .middle{
+	opacity: 1;
+}
+
+.imgimg{
+	backface-visibility: hidden;
+	display: block;
+	width: 100%;
+	opacity: 1;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform:translate(-50%,-50%);
+
+}
+
+
+.middle{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	-ms-transform:translate(-50%,-50%);
+	text-align: center;
+	opacity: 0;
+}
+
+.heart{
+	font-size: 24px;
+}
+.text{
+	font-size: 18px;
+
+}
+
+
+
+.icon{
+	margin: 20px auto;
+	text-align: center;
+}
+
+h5{
+	font-family: 'Jomolhari', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+footer{
+	border-top: 2px solid #522c1c;
+	margin: 30px auto;
+	width: 90%;
+	opacity: .8;
+	overflow: hidden;
+}
+.contact{
+	float: right;
+	margin: 0 1%;
+}
+
+.red{
+	color: #522c1c;
+	opacity: .8;
+	font-size: 2.5em;
+}
+
+.red:hover{
+	color: #ba4e23;
+	opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
